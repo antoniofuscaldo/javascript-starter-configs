@@ -1,0 +1,1 @@
+# It's a markdown file that acts as a version-controlled design system for AI agents [00:33]. It eliminates the need for repetitive prompts (e.g., "make it modern") by providing explicit rules for colors, spacing, typography, and component behavior
