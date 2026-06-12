@@ -40,6 +40,14 @@ tsc:
   rules:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
       when: always
+      
+knip: 
+  stage: knip
+  script: 
+    - pnpm knip:check
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: always
 
 build:
   stage: build
